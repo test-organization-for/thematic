@@ -1,6 +1,6 @@
 # Thematic
 
-By running simple commands from the terminal, you can automatically convert regular [WrapBootstrap](http://wrapbootstrap.com) and other HTML/CSS/JS themes and have them integrate into your Rails app so that it plays nicely with the asset pipeline. 
+By running straightforward commands from the terminal, you can automatically convert regular [WrapBootstrap](http://wrapbootstrap.com) and other HTML/CSS/JS themes and have them integrate into your Rails app so that it plays nicely with the asset pipeline.
 
 ## Installation
 
@@ -17,7 +17,7 @@ You can watch a [video demo!](https://vimeo.com/126414898) of Thematic being use
 Navigate to the root folder of your application, and run the following command:
 
     rake thematic:install[../relative/path/to/the/root/folder/of/your/theme]
-    
+
 The root folder of your theme should be the one that contains the folders 'css', 'img', and 'js', as is standard in many themes.
 
 You can also automatically grab an entire HTML template from the theme as well, and copy it into your app/views/layouts/application.html.erb. (WARNING: THIS WILL OVERWRITE ANY CUSTOM CODE YOU HAVE THERE. So this is something you would do early on in your project.) To do so, run this command:
